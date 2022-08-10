@@ -7,23 +7,31 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2860797D28A3233700B3AF20 /* TaxesCalculater.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2860797C28A3233700B3AF20 /* TaxesCalculater.swift */; };
+		2860797F28A327B000B3AF20 /* UIViewController+TaxesCalculate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2860797E28A327B000B3AF20 /* UIViewController+TaxesCalculate.swift */; };
 		28919F6528985BC5003E8EA4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28919F6428985BC5003E8EA4 /* AppDelegate.swift */; };
 		28919F6728985BC5003E8EA4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28919F6628985BC5003E8EA4 /* SceneDelegate.swift */; };
-		28919F6928985BC5003E8EA4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28919F6828985BC5003E8EA4 /* ViewController.swift */; };
+		28919F6928985BC5003E8EA4 /* ShoppingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28919F6828985BC5003E8EA4 /* ShoppingViewController.swift */; };
 		28919F6C28985BC5003E8EA4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28919F6A28985BC5003E8EA4 /* Main.storyboard */; };
 		28919F6E28985BC7003E8EA4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 28919F6D28985BC7003E8EA4 /* Assets.xcassets */; };
 		28919F7128985BC7003E8EA4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 28919F6F28985BC7003E8EA4 /* LaunchScreen.storyboard */; };
+		28919F79289864D9003E8EA4 /* SettingsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28919F78289864D9003E8EA4 /* SettingsViewController.swift */; };
+		28919F7B289864F2003E8EA4 /* TaxasViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28919F7A289864F2003E8EA4 /* TaxasViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2860797C28A3233700B3AF20 /* TaxesCalculater.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxesCalculater.swift; sourceTree = "<group>"; };
+		2860797E28A327B000B3AF20 /* UIViewController+TaxesCalculate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIViewController+TaxesCalculate.swift"; sourceTree = "<group>"; };
 		28919F6128985BC5003E8EA4 /* Compras USA.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Compras USA.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		28919F6428985BC5003E8EA4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		28919F6628985BC5003E8EA4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		28919F6828985BC5003E8EA4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		28919F6828985BC5003E8EA4 /* ShoppingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShoppingViewController.swift; sourceTree = "<group>"; };
 		28919F6B28985BC5003E8EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		28919F6D28985BC7003E8EA4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		28919F7028985BC7003E8EA4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		28919F7228985BC7003E8EA4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		28919F78289864D9003E8EA4 /* SettingsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewController.swift; sourceTree = "<group>"; };
+		28919F7A289864F2003E8EA4 /* TaxasViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaxasViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,8 +66,12 @@
 			children = (
 				28919F6428985BC5003E8EA4 /* AppDelegate.swift */,
 				28919F6628985BC5003E8EA4 /* SceneDelegate.swift */,
-				28919F6828985BC5003E8EA4 /* ViewController.swift */,
+				28919F6828985BC5003E8EA4 /* ShoppingViewController.swift */,
+				2860797E28A327B000B3AF20 /* UIViewController+TaxesCalculate.swift */,
+				28919F78289864D9003E8EA4 /* SettingsViewController.swift */,
+				28919F7A289864F2003E8EA4 /* TaxasViewController.swift */,
 				28919F6A28985BC5003E8EA4 /* Main.storyboard */,
+				2860797C28A3233700B3AF20 /* TaxesCalculater.swift */,
 				28919F6D28985BC7003E8EA4 /* Assets.xcassets */,
 				28919F6F28985BC7003E8EA4 /* LaunchScreen.storyboard */,
 				28919F7228985BC7003E8EA4 /* Info.plist */,
@@ -138,9 +150,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				28919F6928985BC5003E8EA4 /* ViewController.swift in Sources */,
+				28919F7B289864F2003E8EA4 /* TaxasViewController.swift in Sources */,
+				2860797D28A3233700B3AF20 /* TaxesCalculater.swift in Sources */,
+				2860797F28A327B000B3AF20 /* UIViewController+TaxesCalculate.swift in Sources */,
+				28919F6928985BC5003E8EA4 /* ShoppingViewController.swift in Sources */,
 				28919F6528985BC5003E8EA4 /* AppDelegate.swift in Sources */,
 				28919F6728985BC5003E8EA4 /* SceneDelegate.swift in Sources */,
+				28919F79289864D9003E8EA4 /* SettingsViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -292,6 +308,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -319,6 +336,7 @@
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
